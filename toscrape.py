@@ -1,3 +1,4 @@
+import asyncio
 import json
 import random
 import time
@@ -43,4 +44,4 @@ async def main():
 
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())
