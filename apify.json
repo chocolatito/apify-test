@@ -1,0 +1,10 @@
+{
+    "name": "toscrape-actor",
+    "version": "0.1",
+    "buildTag": "latest",
+    "env": {
+      "PYTHONUNBUFFERED": "1"
+    },
+    "dockerfile": "./Dockerfile"
+  }
+  
