@@ -36,7 +36,6 @@ async def main():
     await apify.push_data(tag_dict)
     apify.utils.log.info("END CRAWLER")
 
-# Ejecutar el actor de Apify
 apify.main(main)
 
 
